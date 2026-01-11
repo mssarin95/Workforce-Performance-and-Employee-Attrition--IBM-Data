@@ -1,0 +1,210 @@
+# SQL Analysis Outputs – Workforce Attrition Project
+
+This document summarizes the key results generated from SQL-based workforce attrition analysis conducted on the IBM HR Attrition dataset (1,470 employees).
+
+---
+# Workforce Attrition – SQL Analysis Outputs
+
+This document summarizes the key results from SQL-based analysis of the IBM HR Attrition dataset (1,470 employees).  
+The focus is on identifying workforce risk patterns and retention drivers in a clear, business-friendly format.
+
+---
+
+## 1. Overall Attrition Summary
+
+- Total Employees: 1,470  
+- Employees Left: 237  
+- Attrition Rate: 16.12%  
+
+Insight:  
+The organization has a moderate-to-high attrition rate, which can affect productivity, recruitment costs, and workforce stability.
+
+---
+
+## 2. Attrition by Department
+
+- Sales  
+  - Attrition Rate: 20.63%  
+- Human Resources  
+  - Attrition Rate: 19.05%  
+- Research & Development  
+  - Attrition Rate: 13.84%  
+
+Insight:  
+Sales and HR departments experience higher employee turnover compared to R&D, suggesting higher pressure or role stress.
+
+---
+
+## 3. Attrition by Job Role (High-Risk Roles)
+
+- Sales Representative: 39.76%  
+- Laboratory Technician: 23.94%  
+- Human Resources: 23.08%  
+- Sales Executive: 17.48%  
+- Research Scientist: 16.10%  
+
+Insight:  
+Sales Representatives show extremely high attrition, indicating possible workload, incentive, or expectation issues.
+
+---
+
+## 4. Attrition by Tenure Group
+
+- Early (0–3 years): 25.96%  
+- Mid (4–7 years): 12.71%  
+- Long (8+ years): 10.42%  
+
+Insight:  
+New employees are most likely to leave, pointing to onboarding or cultural alignment challenges.
+
+---
+
+## 5. Overtime vs Attrition
+
+- Employees working overtime: 30.53% attrition  
+- Employees not working overtime: 10.44% attrition  
+
+Insight:  
+Overtime nearly triples the risk of attrition, highlighting burnout and workload imbalance.
+
+---
+
+## 6. Compensation vs Attrition
+
+- Employees who stayed: Average monthly income ≈ 6,833  
+- Employees who left: Average monthly income ≈ 4,787  
+
+Insight:  
+Lower pay is strongly associated with employee exits, suggesting compensation competitiveness matters.
+
+---
+
+## 7. Satisfaction & Work-Life Balance
+
+- Employees who stayed  
+  - Job Satisfaction: 2.78  
+  - Work-Life Balance: 2.78  
+
+- Employees who left  
+  - Job Satisfaction: 2.47  
+  - Work-Life Balance: 2.66  
+
+Insight:  
+Lower satisfaction and poorer work-life balance increase attrition risk.
+
+---
+
+## Key Business Takeaways
+
+- Overall attrition is 16.12%  
+- Sales roles face the highest turnover  
+- Early-tenure employees are most vulnerable  
+- Overtime strongly drives employee exits  
+- Pay and satisfaction influence retention  
+
+---
+
+## Business Value
+
+This analysis supports:
+
+- Workforce planning  
+- Retention strategy  
+- Burnout prevention  
+- Compensation benchmarking  
+- HR policy improvement  
+
+The project demonstrates how SQL can be used to support real business decisions.
+
+⸻
+
+What We Understood from the Output 
+
+From the analysis of 1,470 employees, we learned that employee attrition is not random.
+About 237 employees left, giving an overall attrition rate of 16.12%.
+This level of turnover can impact productivity, recruitment costs, and team stability.
+
+⸻
+
+1. Attrition is a business risk
+	•	Total Employees: 1,470
+	•	Employees Left: 237
+	•	Attrition Rate: 16.12%
+
+This means roughly 1 in every 6 employees left the organization, making retention a serious business concern.
+
+⸻
+
+2. Sales and HR face the highest attrition
+	•	Sales: 20.63%
+	•	Human Resources: 19.05%
+	•	R&D: 13.84%
+
+Sales and HR employees leave more often than those in R&D.
+This suggests higher pressure, demanding targets, or role stress in these departments.
+
+⸻
+
+3. New employees leave the most
+	•	Early Tenure (0–3 yrs): 25.96%
+	•	Mid Tenure (4–7 yrs): 12.71%
+	•	Long Tenure (8+ yrs): 10.42%
+
+Employees in their first three years are more than 2x as likely to leave compared to long-term employees.
+This points to onboarding, expectation mismatch, or cultural adjustment issues.
+
+⸻
+
+4. Overtime strongly increases attrition
+	•	Overtime Employees: 30.53% attrition
+	•	Non-overtime Employees: 10.44% attrition
+
+Employees working overtime are nearly 3 times more likely to leave.
+This highlights burnout, workload imbalance, and poor work-life balance as major drivers.
+
+⸻
+
+5. Pay differences influence retention
+	•	Employees who stayed: ₹6,833 avg/month
+	•	Employees who left: ₹4,787 avg/month
+
+Employees who left earned about 30% less on average.
+This suggests compensation competitiveness affects retention decisions.
+
+⸻
+
+6. Satisfaction and work-life balance matter
+	•	Stayed employees:
+	•	Job Satisfaction: 2.78
+	•	Work-Life Balance: 2.78
+	•	Employees who left:
+	•	Job Satisfaction: 2.47
+	•	Work-Life Balance: 2.66
+
+Lower satisfaction and poorer work-life balance are clearly linked to higher attrition.
+
+⸻
+
+Overall Understanding (With Data)
+
+Employees are more likely to leave when:
+	•	They are new (25.96% attrition)
+	•	They work overtime (30.53% attrition)
+	•	They earn less (₹4,787 vs ₹6,833)
+	•	They feel less satisfied
+	•	They work in high-pressure roles (Sales: 20.63%)
+
+So, attrition is predictable and manageable.
+
+⸻
+
+What This Means for the Business
+
+To reduce attrition, the company should:
+	•	Strengthen onboarding for early employees
+	•	Control overtime and workload
+	•	Support Sales and HR teams
+	•	Review compensation structures
+	•	Improve employee engagement and work-life balance
+
+This transforms data into actionable workforce strategy.
